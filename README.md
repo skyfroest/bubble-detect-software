@@ -6,6 +6,8 @@
 1. 下载项目
 git clone https://github.com/skyfroest/bubble-detect-software.git
 2. 安装依赖
-pip install -r requirements.txt
+创建conda环境：python>=3.7
+安装python依赖包：pip install -r requirements.txt
+
 3. 运行软件
 python main.py
