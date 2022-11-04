@@ -1,14 +1,7 @@
-# pip install -r requirements.txt
-
-# QT-----------------------------------------
 pyQt5
 pyqt5-tools
-
-# tensorflow--------------------------------
 tensorflow-cpu
 tflearn
-
-# base ----------------------------------------
 matplotlib>=3.2.2
 numpy>=1.18.5
 opencv-python>=4.1.2
@@ -19,12 +12,7 @@ torch>=1.7.0
 torchvision>=0.8.1
 tqdm>=4.41.0
 ruptures
-
-# logging -------------------------------------
 tensorboard>=2.4.1
-# wandb
-
-# plotting ------------------------------------
 seaborn>=0.11.0
 pandas
 
@@ -36,9 +24,3 @@ pandas
 # extras --------------------------------------
 thop  # FLOPS computation
 # pycocotools>=2.0  # COCO mAP
-
-# 需要安装迈德威视工业相机驱动 查看pdf "linuxSDK使用说明"
-# camera_demo中的linux sdk安装包，将lib/arm64文件夹中的 libMVSDK.so复制到 /lib中，然后重启
-# sudo su
-# sudo cp libMVSDK.so /lib
-# reboot
